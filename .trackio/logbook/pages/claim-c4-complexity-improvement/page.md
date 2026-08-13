@@ -1,8 +1,3 @@
 # Claim C4 — complexity improvement
 
-
----
-<!-- trackio-cell
-{"type": "markdown", "id": "cell_c4b081d079b3", "created_at": "2026-07-22T12:58:42+00:00", "title": "Evidence"}
--->
-The source-pinned verifier retains exact theorem constants and finite descending-clock checks. The certificate fails closed on source-hash, constant, budget, IR, or monotonicity mismatch.
+The producer is `repro/verify.py::verify_claim4` and `repro/experiments/runtime.py`. The faithful report records finite log-log slopes of `0.99` for BFM-VM and `1.98` for the naive baseline. Status: **FINITE EVIDENCE RECORDED**; a finite slope fit is not an asymptotic proof.

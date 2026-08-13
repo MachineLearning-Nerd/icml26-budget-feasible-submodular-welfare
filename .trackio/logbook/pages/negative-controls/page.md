@@ -1,8 +1,5 @@
 # Negative controls
 
+The finite C1–C3 verifiers compare the mechanism against an empty-set control. The economic checks include direct budget/property arithmetic. The current committed-evidence audit additionally requires ten Slashdot rows and verifies that BFM-SWM wins against the strongest of the three tracked baselines at every budget.
 
----
-<!-- trackio-cell
-{"type": "markdown", "id": "cell_21ed8f817354", "created_at": "2026-07-22T12:58:45+00:00", "title": "Evidence"}
--->
-The source-pinned verifier retains exact theorem constants and finite descending-clock checks. The certificate fails closed on source-hash, constant, budget, IR, or monotonicity mismatch.
+These controls test whether the finite pipeline has discriminating power; they do not upgrade finite results into theorem proofs.

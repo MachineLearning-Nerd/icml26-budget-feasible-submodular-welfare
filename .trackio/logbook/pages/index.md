@@ -10,6 +10,7 @@
 | [Claim C3 — valuation ratio](#/claim-c3-valuation-ratio) |
 | [Claim C4 — complexity improvement](#/claim-c4-complexity-improvement) |
 | [Claim C5 — economic properties](#/claim-c5-economic-properties) |
+| [Claim C6 — influence maximization](#/claim-c6-influence-maximization) |
 | [Methods](#/methods) |
 | [Negative controls](#/negative-controls) |
 | [Tests and gate](#/tests-and-gate) |

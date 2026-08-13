@@ -1,30 +1,103 @@
 {
   "paper": "hqFugMmCqJ",
-  "source_sha256": "1042e7805858b2a82641a5f2e25aaf5a18f564d36b464545950fffa9d7cff746",
-  "scope": "Source-pinned theorem contract plus finite descending-clock budget/IR/monotonicity controls; not a rerun of unreleased large SNAP experiments.",
-  "claims": {
-    "C1": {
-      "status": "verified",
-      "general_constant": 0.032897681803431035
-    },
-    "C2": {
-      "status": "verified",
-      "monotone_constant": 0.0877271514758161,
-      "runtime_form": "O(n log(OPT/epsilon))"
-    },
-    "C3": {
-      "status": "verified",
-      "valg_constant": 0.052831216351296784
-    },
-    "C4": {
-      "status": "verified",
-      "complexity_improvement": "O(n^2 log n) to O(n log n)"
-    },
-    "C5": {
-      "status": "verified",
-      "economic_cells": 15
-    }
+  "gate": "committed-evidence-audit",
+  "audit_passed": true,
+  "tests_passed": null,
+  "publication_gate_passed": false,
+  "finite_contracts_passed": 5,
+  "finite_contracts_total": 6,
+  "paper_claims_verified": 0,
+  "paper_claims_total": 6,
+  "overall_status": "INCONCLUSIVE",
+  "contract_statuses": {
+    "C1": "FINITE_EVIDENCE_RECORDED",
+    "C2": "FINITE_EVIDENCE_RECORDED",
+    "C3": "FINITE_EVIDENCE_RECORDED",
+    "C4": "FINITE_EVIDENCE_RECORDED",
+    "C5": "FINITE_EVIDENCE_RECORDED",
+    "C6": "PARTIAL_DATASET_PASS"
   },
-  "verified_claims": 5,
-  "falsified_claims": 0
+  "source_sha256": "1042e7805858b2a82641a5f2e25aaf5a18f564d36b464545950fffa9d7cff746",
+  "slashdot": {
+    "dataset": "Slashdot",
+    "nodes": 77360,
+    "budgets": 10,
+    "wins": 10,
+    "mean_improvement_factor": 4.564099862279916,
+    "min_improvement_factor": 2.971269356780824,
+    "max_improvement_factor": 6.361821116240663,
+    "rows": [
+      {
+        "budget": 100,
+        "bfm_swm_welfare": 898.504,
+        "best_baseline_welfare": 210.815,
+        "improvement_factor": 4.262049664397694,
+        "bfm_swm_wins": true
+      },
+      {
+        "budget": 200,
+        "bfm_swm_welfare": 2835.39,
+        "best_baseline_welfare": 458.489,
+        "improvement_factor": 6.184205073622268,
+        "bfm_swm_wins": true
+      },
+      {
+        "budget": 300,
+        "bfm_swm_welfare": 2864.1,
+        "best_baseline_welfare": 646.893,
+        "improvement_factor": 4.427471003705404,
+        "bfm_swm_wins": true
+      },
+      {
+        "budget": 400,
+        "bfm_swm_welfare": 4030.51,
+        "best_baseline_welfare": 898.504,
+        "improvement_factor": 4.485800842288961,
+        "bfm_swm_wins": true
+      },
+      {
+        "budget": 500,
+        "bfm_swm_welfare": 6779.92,
+        "best_baseline_welfare": 1065.72,
+        "improvement_factor": 6.361821116240663,
+        "bfm_swm_wins": true
+      },
+      {
+        "budget": 600,
+        "bfm_swm_welfare": 7053.79,
+        "best_baseline_welfare": 1272.05,
+        "improvement_factor": 5.545214417672262,
+        "bfm_swm_wins": true
+      },
+      {
+        "budget": 700,
+        "bfm_swm_welfare": 7229.25,
+        "best_baseline_welfare": 1721.99,
+        "improvement_factor": 4.198195111469869,
+        "bfm_swm_wins": true
+      },
+      {
+        "budget": 800,
+        "bfm_swm_welfare": 7267.31,
+        "best_baseline_welfare": 1721.99,
+        "improvement_factor": 4.220297446558924,
+        "bfm_swm_wins": true
+      },
+      {
+        "budget": 900,
+        "bfm_swm_welfare": 7461.0,
+        "best_baseline_welfare": 2499.77,
+        "improvement_factor": 2.9846745900622857,
+        "bfm_swm_wins": true
+      },
+      {
+        "budget": 1000,
+        "bfm_swm_welfare": 7427.49,
+        "best_baseline_welfare": 2499.77,
+        "improvement_factor": 2.971269356780824,
+        "bfm_swm_wins": true
+      }
+    ]
+  },
+  "scope": "Committed finite/formula evidence for C1-C5 and one faithful Slashdot dataset for C6; universal theorem claims and the paper's full three-dataset influence result remain independently unverified."
 }

@@ -1,19 +1,15 @@
 # Conclusion
 
-
----
-<!-- trackio-cell
-{"type": "markdown", "id": "cell_222b2a59b525", "created_at": "2026-07-22T12:58:47+00:00", "title": "Executive summary", "pinned": true, "pinned_at": "2026-07-22T12:58:47+00:00"}
--->
 ## Outcome
 
-Five non-experimental anchors pass a source-pinned CPU certificate. The repository does not claim to rerun the unreleased large SNAP influence-maximization experiments.
+The repository contains meaningful reproduction evidence, not a proof of the paper’s claims. C1–C5 have finite/formula evidence recorded, and C6 passes all ten tracked Slashdot budget comparisons with mean improvement `4.564×`. The full paper-level result remains **INCONCLUSIVE**.
 
 ## Scope & cost
 
-| | This reproduction | Full replication |
+| | This audit | Full replication |
 |---|---|---|
-| Scope | Source/theorem constants and finite economic controls | Large SNAP influence datasets and author protocol |
-| Hardware | Local CPU | Dataset-dependent CPU infrastructure |
-| Cost | $0 | Not estimated |
-| Outcome | Five anchors pass | Outside released-source scope |
+| Scope | Source-pinned constants, finite mechanisms, and one faithful SNAP dataset | Universal theorem validation and all three paper influence datasets |
+| Hardware | Existing CPU/C++ artifacts | Dataset- and protocol-dependent compute |
+| Outcome | Evidence recorded; `0/6` paper claims independently verified | Outside the current committed evidence |
+
+The one-dataset C6 result must not be presented as the paper-wide `4.49×` aggregate.
