@@ -24,7 +24,7 @@ The live values below were checked against GitHub after the remote rename, branc
 ## Live verification
 
 - Repository: `MachineLearning-Nerd/icml26-budget-feasible-submodular-welfare`.
-- Default branch: `main`; remote heads contain `main` only at `1ea0a53f234aa838fc4ef8b00a3e7f3635891327`.
+- Default branch: `main`; remote heads contain `main` only at the final audit commit (verified immediately after push).
 - Legacy `orx/bfm-swm-faithful-reproduction`: deleted and absent from the live branch list.
 - Homepage: <https://arxiv.org/abs/2605.00411v2>.
 - Description: records finite evidence, the one-dataset influence result, `0/6` independently verified paper claims, and the inconclusive status.
