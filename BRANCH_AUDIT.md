@@ -19,11 +19,14 @@ The final remote state for this repository is intended to be:
 - homepage: <https://arxiv.org/abs/2605.00411v2>
 - reachable commit author and committer: `MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>`
 
-The live values are filled in below after the remote rename, branch deletion, and history audit.
+The live values below were checked against GitHub after the remote rename, branch deletion, and history audit.
 
 ## Live verification
 
-- Repository: pending final remote audit.
-- Default branch and sole-branch check: pending.
-- Legacy `orx/*` branch deletion: pending.
-- Reachable author/committer check: pending.
+- Repository: `MachineLearning-Nerd/icml26-budget-feasible-submodular-welfare`.
+- Default branch: `main`; remote heads contain `main` only at `1ea0a53f234aa838fc4ef8b00a3e7f3635891327`.
+- Legacy `orx/bfm-swm-faithful-reproduction`: deleted and absent from the live branch list.
+- Homepage: <https://arxiv.org/abs/2605.00411v2>.
+- Description: records finite evidence, the one-dataset influence result, `0/6` independently verified paper claims, and the inconclusive status.
+- Reachable local `main` commits: all author and committer identities are `MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>`.
+- Local `main` tracks `origin/main` with no uncommitted changes.
